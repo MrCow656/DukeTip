@@ -1,0 +1,19 @@
+
+
+class  Dog:
+
+    #class attributes
+    name = ""
+    breed = ""
+
+    #class Constructor
+
+    def __init__(self, name = None, breed = None):
+        self.name = name
+        self.breed = breed
+###### examples ################
+dog1 = Dog("Fido", "Corgi")
+doge = Dog("jesus", "god")
+dog3 = Dog()
+print(dog1.name)
+print (dog3.name)
